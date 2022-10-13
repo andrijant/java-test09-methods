@@ -28,7 +28,7 @@ public class Test12 {   // telo klase
 
         System.out.println("The smallest number is: " + smallerThenTwoAndThreeNum);
     }
-    
+      
     public static int minimumTwoNumbers( int a, int b ) {    // telo metoda 'minimumTwoNumbers'
         // metod u zagradama '()' uzima argumente koji moraju da imaju tip moze i vise njih
         // tip podataka 'int'
