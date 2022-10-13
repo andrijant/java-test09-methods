@@ -20,10 +20,13 @@ public class Test12 {   // telo klase
         System.out.print("Enter second number: ");
         int secondInt = s.nextInt();
         
-        int smallerThenTwoNum = minimumTwoNumbers(firstInt, secondInt);
+        System.out.print("Enter second number: ");
+        int thirdInt = s.nextInt();
         
+        int smallerThenFirstTwoNum = minimumTwoNumbers(firstInt, secondInt);
+        int smallerThenTwoAndThreeNum = minimumTwoNumbers(smallerThenFirstTwoNum, thirdInt);
 
-        System.out.println("Smaller number is: " + smallerThenTwoNum);
+        System.out.println("The smallest number is: " + smallerThenTwoAndThreeNum);
     }
     
     public static int minimumTwoNumbers( int a, int b ) {    // telo metoda 'minimumTwoNumbers'
