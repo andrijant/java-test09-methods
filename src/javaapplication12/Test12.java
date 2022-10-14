@@ -41,5 +41,32 @@ public class Test12 {   // telo klase
             return b;
         }
     }
+    
+    // modul 1
+//    public static int minimumThreeNumbers( int a, int b, int c ) {
+//        int minAB = minimumTwoNumbers(a, b);
+//        int minABC = minimumTwoNumbers(minAB, c);
+//        return minABC;
+//    }
+    
+    // modul 2
+//    public static int minimumThreeNumbers( int a, int b, int c ) {
+////        int minAB = minimumTwoNumbers(a, b);
+////        int minABC = minimumTwoNumbers(minAB, c);
+//        int minABC = minimumTwoNumbers(minimumTwoNumbers(a, b), c);
+//        return minABC;
+//    }
+    
+    // modul 3
+    public static int minimumThreeNumbers( int a, int b, int c ) {
+//        int minAB = minimumTwoNumbers(a, b);
+//        int minABC = minimumTwoNumbers(minAB, c);
+
+//        int minABC = minimumTwoNumbers(minimumTwoNumbers(a, b), c);
+//        return minABC;
+
+        return minimumTwoNumbers(minimumTwoNumbers(a, b), c);
+    }
+    
 }
 
